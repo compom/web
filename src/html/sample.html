@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>はじめてのHTML</title>
+		<style>
+			h1 {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>はじめての見出し</h1>
+		<p>はじめての段落</p>
+		<p>
+			<!-- 改行ができるbrタグ -->
+			I make HTML files. <br>
+			I want to become a web developper. <br>
+			So I study hard. <br>
+			But I think to study all of tecnologys is so hard. <br>
+			<!-- 仕切り線ができるhrタグ -->
+			<hr>
+			私はHTMLファイルを作成しています。<br>
+			<!-- リストが作成できるul:unorderd listタグ (順序なしリスト)-->
+			<!-- リストが作成できるol:orderd listタグ (順序ありリスト)-->
+			<!-- li:list:リスト内容 -->
+			<!-- ul>li*3 ulのliを3こ作る -->
+			<ul>
+				<li>リンゴ</li>
+				<li>みかん</li>
+				<li>なし</li>
+			</ul>
+			<ol>
+				<li>金賞</li>
+				<li>銀賞</li>
+				<li>銅賞</li>
+			</ol>
+			<!-- 入れ子になったリスト -->
+			<ul>
+				<li>
+					ごはん
+					<ul>
+						<li>白米</li>
+						<li>赤飯</li>
+					</ul>
+				</li>
+				<li>
+					パン
+					<ul>
+						<li>カレーパン</li>
+						<li>デニッシュ</li>
+					</ul>
+				</li>
+			</ul>
+			<!-- 説明リスト:一連の用語等を説明したもの -->
+			<!-- DL要素で説明リストであることを名言dtで用語を宣言ddで内容 -->
+			<!-- dl:Description List  dt:Description Term  dd:Description Definition -->
+			<dl>
+				<dt>用語1</dt>
+				<dd>説明1</dd>
+
+				<dt>用語1</dt>
+				<dd>説明1</dd>
+
+				<dt>用語1</dt>
+				<dd>説明1</dd>
+			</dl>
+
+			<dl>
+				<dt>HTML</dt>
+				<dd>文章構造を定義するマークアップ言語です。</dd>
+
+				<dt>CSS</dt>
+				<dd>ウェブページのスタイルを指定するための言語です。</dd>
+
+				<dt>Java Script</dt>
+				<dd>動的なウェブページを作成することのできるプログラミング言語です。</dd>
+
+			</dl>
+			<!-- 様々な見出し:h1~h6 ※h1は一つだけ、サイズを指定する目的で使わない（CSSの仕事） -->
+			<h1>見出し　レベル1</h1>
+				<p>パラム</p>
+			<h2>見出し　レベル2</h2>
+				<p>パラム</p>
+			<h3>見出し　レベル3</h3>
+				<p>パラム</p>
+			<h4>見出し　レベル4</h4>
+				<p>パラム</p>
+			<h5>見出し　レベル5</h5>
+				<p>パラム</p>
+			<h6>見出し　レベル6</h6>
+				<p>パラム</p>
+			<!-- 画像の利用 with幅 height高さ alt画像の説明 -->
+			<img src="dog.jpg" with="300" height="300" alt="犬の画像">
+			<hr>
+			<img src="C:\Users\zeekz\Documents\workspase\web\src\html\dog.jpg" with="300" height="300" alt="犬の画像">
+			<!-- リンクの利用 -->
+			<!-- a:anchor href:hypertext reference 要素 -->
+			<br>
+			<!-- 外部サイトリンク -->
+			<!-- _blank,noopnerはセキュリティ対策 -->
+			<a href="https://programmingnavi.com" target="_blank" rel="noopener">プログラミング入門ナビ</a>
+			<a href="sample2.html">ページ2へ</a>
+		</p>
+	</body>
+
+</html>
